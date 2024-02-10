@@ -123,7 +123,7 @@ resource "aws_spot_instance_request" "rabbitmq" {
 }
 
 resource "aws_route53_record" "rabbitmq" {
-  zone_id = "Z10181653L4NCOVM5PP96"
+  zone_id = "Z06645392X66P7VWW7UVL"
   name    = "rabbitmq-${var.env}.lokesh33.online"
   type    = "A"
   ttl     = 30
